@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title }} | {{ page.title }}</title>
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,21 +14,22 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title }}</h1>
+        <h1>{{ site.title }} <small>Madison Scott-Clary</small></h1>
         <p>{{ site.description | markdownify }}</p>
+    </header>
       <section>
 
+      <h1>{{ page.title }}</h1>
       {{ content }}
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        All content is &copy; Madison Scott-clary<br />
+        Licensing is probably more involved and may be covered on the posts<br />
+        If a post is encrypted, I'd super appreciate it if it's not shared; it'll be released in due time!
       </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="/assets/js/scale.fix.js"></script>
 
 
   {% if site.google_analytics %}

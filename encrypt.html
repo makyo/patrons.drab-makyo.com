@@ -1,0 +1,26 @@
+---
+layout: default
+title: Encrypt tool
+---
+
+<p>This is likely not of use to anyone, it's just how I encrypt the posts on the site. The test to ensure it works is available <a href="/test-encrypted">here</a> (password is <code>asdf</code>).</p>
+<div class="form">
+    <form>
+        <h4>Passphrase</h4>
+        <input type="text" id="passphrase" />
+        <h4>Input</h4>
+        <textarea id="input" cols="100" rows="25"></textarea>
+        <button type="button" onclick="encrypt()">Encrypt</button>
+    </form>
+    <h4>Output</h4>
+    <pre id="output"></pre>
+</div>
+
+<script type="text/javascript" src="/assets/js/sjcl-1.0.6/sjcl.js"></script>
+<script type="text/javascript">
+    function encrypt() {
+        var passphrase = document.getElementById('passphrase').value;
+        var input = document.getElementById('input').value;
+        document.getElementById('output').innerHTML = sjcl.encrypt(passphrase, input);
+    }
+</script>

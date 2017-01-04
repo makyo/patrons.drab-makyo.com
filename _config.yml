@@ -16,14 +16,12 @@
 title: Patrons
 description: |
   This site is for [patrons](https://patreon.com/makyo) to view works in progress and ideas.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://patrons.drab-makyo.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
+  When new content is released in an encrypted state for patrons, the post on patreon will include a passphrase that unlocks it on this site.
+baseurl: "/"
+url: "http://patrons.drab-makyo.com"
 markdown: kramdown
-theme: minimal
-gems:
-  - jekyll-feed
+theme: jekyll-theme-minimal
 exclude:
   - Gemfile
   - Gemfile.lock

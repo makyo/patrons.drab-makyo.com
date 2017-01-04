@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div id="decrypted"></div>
+
+<script type="text/javascript" src="/assets/js/sjcl-1.0.6/sjcl.js"></script>
+<script type="text/javascript" src="/assets/js/marked-0.3.6/marked.min.js"></script>
+<script type="text/javascript">
+var password = window.prompt("Please enter the passphrase you were provided");
+var encrypted = '{{ content | strip }}';
+try {
+    var decrypted = sjcl.decrypt(password, encrypted);
+    document.getElementById('decrypted').innerHTML = marked(decrypted);
+} catch(e) {
+    document.getElementById('decrypted').innerHTML = marked("*Uh oh, the password didn't match. Reload to try again.*");
+}
+</script>
