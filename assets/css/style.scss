@@ -10,3 +10,15 @@ h1 small {
 footer {
     font-size: 10px;
 }
+
+textarea {
+    font-family: monospace;
+}
+
+header a {
+    color: black;
+
+    &:active, &:visited, &:active, &:hover {
+        color: black;
+    }
+}

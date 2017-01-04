@@ -17,6 +17,7 @@ This site is primarily for [patrons](https://patreon.com/makyo) who would like t
         <p><em>This post is encrypted and viewable to patrons only</em></p>
     {% else %}
         {{ post.excerpt }}
+        <p><small><a href="{{ post.url }}">More...</a></small></p>
     {% endif %}
 </div>
 {% endfor %}
