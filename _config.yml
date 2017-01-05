@@ -22,7 +22,7 @@ baseurl: "/"
 url: "http://patrons.drab-makyo.com"
 markdown: kramdown
 theme: jekyll-theme-minimal
-permalink: pretty
+permalink: "/:categories/:year/:month/:day/:title/"
 paginate: 10
 paginate_path: "/posts/:num/"
 exclude:
