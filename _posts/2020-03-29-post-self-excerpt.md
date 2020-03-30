@@ -434,23 +434,27 @@ As before, ey keyed in the password and rested eir hand onto the cradle for the 
 
 Ey called up Sasha's deck.
 
-  ----------------------
-   Cicero Lost Nov 2108
-      Priv eyes only
-   See Debarre for ACLs
-  ----------------------
+      ----------------------
+       Cicero Lost Nov 2108
+          Priv eyes only
+       See Debarre for ACLs
+      ---------------------
 
-  --------------------
-   Dr. Carter Ramirez
-   specialist in lost
-       so. London
-  --------------------
+&nbsp;
 
-  --------------------------------
-          Mr/Mrs. Jackson
-    parents, can't get much more
-   dad in govt, mother stays home
-  --------------------------------
+      --------------------
+       Dr. Carter Ramirez
+       specialist in lost
+           so. London
+      --------------------
+
+&nbsp;
+
+      --------------------------------
+              Mr/Mrs. Jackson
+        parents, can't get much more
+       dad in govt, mother stays home
+      --------------------------------
 
 And on it went for nearly a dozen cards. Each had its own cover embossed with a few lines of type, and each contained upwards of a gig of information culled from various sources, doubtless of varied quality.
 
@@ -490,11 +494,11 @@ Cicero, however, seemed to waver between socialism and anarchy, depending on fac
 
 Ey made sure syncing was turned on across all copies of the deck before snipping those rows out of the activity table into a card of their own:
 
-  -------------------------
-          DDR votes
-   todo: process by record
-   1 month, 835 votes (!)
-  -------------------------
+      -------------------------
+              DDR votes
+       todo: process by record
+       1 month, 835 votes (!)
+      -------------------------
 
 The icon in the upper left of the screen showing the deck twirled gracefully to show the sync.
 
