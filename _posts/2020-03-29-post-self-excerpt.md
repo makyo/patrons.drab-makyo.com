@@ -1,5 +1,5 @@
 ---
-title: "*Post-Self: Qoheleth and other stories (excerpt)"
+title: "*Post-Self: Qoheleth and other stories* (excerpt)"
 ---
 
 # Qoheleth
