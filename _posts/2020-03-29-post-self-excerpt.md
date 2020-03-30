@@ -790,6 +790,18 @@ AwDae struggled against crashing waves of panic. Struggled to make all of this i
 
 # Assignment
 
+### Ioan Balan\#Tracker --- 2303
+
+*(Patron-only content!)*
+
 # Après un rêve
 
+### Sylvie Esi --- 2138
+
+*(Patron-only content!)*
+
 # Gallery Exhibition
+
+### You --- 2302
+
+*(Patron-only content!)*
