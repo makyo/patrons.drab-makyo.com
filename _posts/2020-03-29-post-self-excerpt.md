@@ -1,5 +1,7 @@
 ---
-title: "*Post-Self: Qoheleth and other stories* (excerpt)"
+layout: defautl
+title: "Post-Self: Qoheleth and other stories (excerpt)"
+author: Madison Scott-Clary
 ---
 
 # Qoheleth
